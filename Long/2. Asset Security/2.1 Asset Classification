@@ -1,0 +1,201 @@
+Considerations and criteria for classifying data
+-risk analysis and management = most cost-effective way of protecting information assets
+	-to do this, asset must be classified
+-classifying data tells how to protect it
+	-more sensitive (like customer data, HR) data, disclosure has a higher risk
+	-marketing data f.e. is classified at a lower risk
+-data classified higher risk > create security and access requirements
+
+
+Commercial Classification
+-no standarad for commercial/nongovernment organization
+-dependent on the overall sensitivity of the data and levels of confidentiality desired
+-some use 'confidential' and 'public', others use higher granularity
+	-top secret, secret, sensitive, confidential, proprietary, public
+
+
+COMMERCIAL DATA CLASSIFICATIONS FROM HIGHEST TO LOWEST
+
+Sensitive
+	-most limited access, high degree of integrity
+	-do most damage if disclosed
+Confidential
+	-less restrictive but might cause damage is disclosed
+Private
+	-usually comparmental data, might not do damage but must be private (HR)
+Proprietary
+	-if disclosed, could reduce company's competetive advantage
+Public
+	-least sensitive data, anything from marketing to the number of employees in company
+
+
+Detemining the sensitivity of data
+
+-The usefulness of data
+-The value of data
+-The age of data
+-The level of damage that could be caused if the data were disclosed
+-The level of damage that could be caused if the data were modified or corrupted
+-Legal, regulatory, or contractual responsibility to protect the data
+-Effects the data has on security
+-Who should be able to access the data
+-Who should maintain the data
+-Who should be able to reproduce the data
+-Lost opportunity costs that could be incurred if the data were not available or were corrupted
+
+
+
+Data Classification Procedures
+
+-Define classification levels.
+-Specify the criteria that will determine how data are classified.
+-Identify data owners who will be responsible for classifying data.
+-Identify the data custodian who will be responsible for maintaining data and its security level.
+-Indicate the security controls, or protection mechanisms, required for each classification level.
+-Document any exceptions to the previous classification issues.
+-Indicate the methods that can be used to transfer custody of the information to a different data owner.
+-Create a procedure to periodically review the classification and ownership. Communicate any changes to the data custodian.
+-Indicate procedures for declassifying the data.
+-Integrate these issues into the security-awareness program so all employees understand how to handle data at different classification levels.
+
+
+
+Common roles
+
+Senior Manager: Ultimate responsibility for security
+InfoSec Officer: Functional responsibility for security
+Owner: Determines the data classification
+Custodian: Preserves the informations CIA
+User/Operator: Performs the stated policies
+Auditor: Examines security 
+
+-The board of directors: group elected by the shareholders
+-CEO (Chief Executive Officer): day-to-day management responsibilities
+-CFO (Chief Financial Officer)
+-CIO (Chief Information Officer): strategig use and management of IS and technology
+-CPO (Chief Privacy Officer): ensure that data is kept safe
+-CSO (Chief Security Officer): understands faced risks and mitigates them, governance
+-CISO (Chief Information Security Officer): more focused on IT than CSO
+
+-Carrying out a risk assessment from the perspective of the protection of sensitive data is called a privacy impact analysis.
+-Privacy is different from security. Privacy indicates the amount of control an individual should be able to have and expect as it relates to the release of their own sensitive information. Security is the mechanisms that can be put into place to provide this level of control.
+
+
+-It is becoming more critical (and more difficult) to protect personal identifiable information (PII) because of the increase of identity theft and financial fraud threats. PII is a combination of identification elements (name, address, phone number, account number, etc.). Organizations must have privacy policies and controls in place to protect their employee and customer PII.
+
+-A security steering committee is responsible for making decisions on tactical and strategic security issues within the enterprise as a whole and should not be tied to one or more business units.The CEO should head this committee, and the CFO, CIO, department managers, and chief internal auditor should all be on it.
+
+-The audit committee should be appointed by the board of directors to help it review and evaluate the company’s internal operations, internal audit system, and the transparency and accuracy of financial reporting so the company’s investors, customers, and creditors have continued confidence in the organization. The audit committee should be appointed by the board of directors to help it review and evaluate the company’s internal operations, internal audit system, and the transparency and accuracy of financial reporting so the company’s investors, customers, and creditors have continued confidence in the organization.
+
+-The data owner (information owner) is usually a member of management who is in charge of a specific business unit, and who is ultimately responsible for the protection and use of a specific subset of information.
+
+-The data custodian (information custodian) is responsible for maintaining and protecting the data. This role is usually filled by the IT or security department, and the duties include implementing and maintaining security controls; performing regular backups of the data; periodically validating the integrity of the data; restoring data from backup media; retaining records of activity; and fulfilling the requirements specified in the company’s security policy, standards, and guidelines that pertain to information security and data protection.
+
+-The system owner is responsible for one or more systems, each of which may hold and process data owned by different data owners. A system owner is responsible for integrating security considerations into application and system purchasing decisions and development projects.
+
+-The security administrator is responsible for implementing and maintaining specific security network devices and software in the enterprise. These controls commonly include firewalls, IDS, IPS, antimalware, security proxies, data loss prevention, etc.
+
+-The security analyst helps develop policies, standards, and guidelines, as well as set various baselines.
+
+-The application owners, usually the business unit managers, are responsible for dictating who can and cannot access their applications
+
+-The supervisor role, also called user manager, is ultimately responsible for all user activity and any assets created and owned by these users.
+
+-The change control analyst is responsible for approving or rejecting requests to make changes to the network, systems, or software.
+
+-The data analyst is responsible for ensuring that data is stored in a way that makes the most sense to the company and the individuals who need to access and work with it.
+
+-The process owner is responsible for properly defining, improving upon, and monitoring various processes within a company. A process owner is not necessarily tied to one business unit or application.
+
+-A solution provider works with the business unit managers, data owners, and senior management to develop and deploy a solution to reduce the company’s pain points.
+
+-The user is any individual who routinely uses the data for work-related tasks.
+
+-The product line manager evaluates different products in the market, works with vendors, understands different options a company can take, and advises management and business units on the proper solutions needed to meet their goals.
+
+-The function of the auditor is to come around periodically and make sure you are doing what you are supposed to be doing. They ensure the correct controls are in place and are being maintained securely. The goal of the auditor is to make sure the organization complies with its own policies and the applicable laws and regulations.
+
+-Separation of duties makes sure that one individual cannot complete a critical task by herself. Separation of duties is a preventative administrative control put into place to reduce the potential of fraud. For example, an employee cannot complete a critical financial transaction by herself. She will need to have her supervisor’s written approval before the transaction can be completed.
+
+-In an organization that practices separation of duties, collusion must take place for fraud to be committed. Collusion means that at least two people are working together to cause some type of destruction or fraud. In our example, the employee and her supervisor must be participating in the fraudulent activity to make it happen.
+
+-Two variations of separation of duties are split knowledge and dual control. In both cases, two or more individuals are authorized and required to perform a duty or task. In the case of split knowledge, no one person knows or has all the details to perform a task. For example, two managers might be required to open a bank vault, with each only knowing part of the combination. In the case of dual control, two individuals are again authorized to perform a task, but both must be available and active in their participation to complete the task or mission. For example, two officers must perform an identical key-turn in a nuclear missile submarine, each out of reach of the other, to launch a missile. The control here is that no one person has the capability of launching a missile, because they cannot reach to turn both keys at the same time.
+
+-Rotation of duties (rotation of assignments) is an administrative detective control that can be put into place to uncover fraudulent activities. No one person should stay in one position for a long time because they may end up having too much control over a segment of the business. This type of control is commonly implemented in financial institutions.
+
+-Employees in sensitive areas should be forced to take their vacations, which is known as a mandatory vacation. While they are on vacation, other individuals fill their positions and thus can usually detect any fraudulent errors or activities.
+
+
+
+Hiring Practices
+
+-Nondisclosure agreements must be developed and signed by new employees to protect the company and its sensitive information. Any conflicts of interest must be addressed, and there should be different agreements and precautions taken with temporary and contract employees.
+-Back ground checks should be done and security awareness should be made mandatory for all new hires.
+
+
+
+-Security governance is a framework that allows for the security goals of an organization to be set and expressed by senior management, communicated throughout the different levels of the organization, grant power to the entities needed to implement and enforce security, and provide a way to verify the performance of these necessary security activities.
+
+
+
+Metrics
+
+-We need a way to assess the effectiveness of our work, identify deficiencies, and prioritize the things that still need work. We need a way to facilitate decision making, performance improvement, and accountability through collection, analysis, and reporting of the necessary information.
+
+-There are industry best practices that can be used to guide the development of a security metric and measurement system. The international standard is ISO/IEC 27004:2009, which is used to assess the effectiveness of an ISMS and the controls that make up the security program as outlined in ISO/IEC 27001. So ISO/IEC 27001 tells you how to build a security program and then ISO/IEC 27004 tells you how to measure it.
+
+-The NIST 800-55 publication also covers performance measuring for information security, but has a U.S. government slant.
+
+-The ISO standard and NIST approaches to metric development are similar, but have some differences. The ISO standard breaks individual metrics down into base measures, derived measures, and then indicator values.
+
+
+
+Government Classification
+-policy for maintaining national security or privacy of citizen data
+-military/intelligence orgs set classifications on the ramifications of disclosure of data
+-civilian agencies also look to prevent disclosure, but have to also consider integrity
+-based on laws, policies and executive directives that can conflict
+
+
+
+GOVERNMENT DATA CLASSIFICATIONS FROM HIGHEST TO LOWEST
+
+Top Secret
+-disclosure would cause severe damage to national security
+
+Secret
+-disclosure would cause serious damage to national security
+
+Confidential
+-usually data that is exempt from disclosure under laws such as the Freedom of Information Act but is not classified as national security data
+
+Sensitive but Unclassified (SBU)
+-not considered vital to national security, but its disclosure would do some harm
+-many agencies classify data from citizens as SBU
+
+Unclassified
+-data has no classification nor it's sensitive
+
+
+
+
+Criteria
+-once classification scheme identified > create criteria for setting classification
+-Who should be able to access or maintain the data?
+-Which laws, regulations, directives, or liability might be required in protecting the data?
+-For government organizations, what would the effect on national security be if the data were disclosed?
+-For nongovernment organizations, what would the level of damage be if the data was disclosed or corrupted?
+-Where is the data to be stored?
+-What is the value or usefulness of the data?
+
+
+
+Creating Data Classification Procedures
+
+1. Set the criteria for classifying the data.
+2. Determine the security controls that will be associated with the classification.
+3. Identify the data owner who will set the classification of the data.
+4. Document any exceptions that might be required for the security of this data.
+5. Determine how the custody of the data can be transferred.
+6. Create criteria for declassifying information.
+7. Add this information to the security awareness and training programs so users can understand their responsibilities in handling data at various classifications. 
