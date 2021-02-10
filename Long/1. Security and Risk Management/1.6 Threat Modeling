@@ -1,0 +1,33 @@
+What it is?
+-Threat modeling is a structured approach to:
+	-identifying threats
+  -quantifying threats
+  -addressing threats
+-allows system security staff to communicate potential dmg of flaws and prioritize efforts
+-threat modeling covers:
+	-Assets - what valuable data/equipment should be secured?
+	-Threats - what may an attacker do to the system?
+	-Vulnerabilities - what flaws in the system
+
+
+Who does Threat Models and when?
+-ideally threat models are created during system design prior to any deployment
+-in practice, threat models are often created for existing systems, making it part of maintenance
+-system designers with security experience are best equipped to identify the threats.
+
+
+
+Steps to Threat Modeling
+-Identify the assets
+-Describe the architecture
+-Break down the applications
+-Identify the threats
+-Document and classify the threats
+-Rate the threats
+
+
+
+Identify assets
+-Entry and Exit points
+-System assets and resources
+-Trust levels (access categories)
