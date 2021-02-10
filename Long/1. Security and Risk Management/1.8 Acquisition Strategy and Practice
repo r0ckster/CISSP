@@ -1,0 +1,32 @@
+Integrating Security Risk Considerations into Acquisition Strategy and Practice
+-helps to minimize introduction of new/unknown risks
+-security in org is only as strong as its weakest link
+	-often one of orgs is less secure - in mergers
+-rarely straightforward to reconsile policies, requirements, business processes and procedures during a merger
+-DON'T assume one orgs (even if its the buyers) policies etc. are better than others
+-everything should be assessed to id best solutions
+
+
+Hardware, software, and services
+-any new should be evaluated to determine impact on overall security and risk posture
+-integration issues can have a negative impact
+
+
+Third-party assessment and monitoring
+-important to consider the third parties that each org brings to the table
+-ensure that the risk level related to them has not changed in light of merger/acquisition
+-contracts (privacy, nda, sec req, SLA's) should be reviewed
+
+
+Minimum security requirements
+-baselines should be documented so they are understood and considered in strategy/practice
+-blending security requirements from two parties is not simple
+-overlaps, underlaps and contradictions must be reconsiled
+-transition period may be required > time to adjust sec configs and architectures
+
+
+Service-level requirements (SLA's)
+-establish minimum performance standards for a system, application, network, or service
+-examples
+	-Service Desk: prioritize incidents as 1,2,3,4. Response times 1h, 2h, 24h
+	-ISP: maximum acceptable downtime, if exceeded = penalty
