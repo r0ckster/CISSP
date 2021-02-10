@@ -1,0 +1,101 @@
+Security documentation
+-most orgs dont have it up-to-date
+-could be no explanation how the controls are configured to satisfy policies
+-replacement in emergency situation could be difficult
+-too accessible documentation can lead to issues too
+	-disgruntled employee
+	-inustrial espionage
+-should be concrete, well defined and clearly stated
+-for security plan to be effective, it must be developed, maintained and used
+
+Guideline: provides additional, recommended guidance
+Procedure: establishes proper steps to take
+Standard: assigns quantifiable requirements
+Control Objective: identifies desired conditions to be met
+Policy: sets high-level expectations
+
+
+Policies, Standards, Baselines, Guidelines, and Procedures
+
+Security Policy
+-document that defines all relevant terminology
+-clearly defines why security is important and what assets are valuable
+-strategic plan for implementing security
+-assigns responsibilities, defines roles, specify audit req, outlines enforcement processes, indicate compliance req and define acceptable risk levels
+-proof that senior management exercised due care in protecting itself against intrusion, attack and disaster
+-compulsory
+
+Security Policy Types
+-organizational
+	-focuses on issues relevant to every aspect of an org
+-issue-specific
+	-focuses on network service, department, function or other aspect
+-system-specific
+	-focuses on individual system or systems, approved HW & SW, locking down system, mandates FW or other specific security control
+
+Security Policy Categories
+-regulatory
+	-required when industry or legal standard are applicable to your org
+	-discuss the regulations and procedures that should be used to elicit compliance
+-advisory
+	-discuss behaviors and activities that are acceptable and defines consequences of violations
+	-explains senior managements desires for sec and compliance within an org
+	-most policies are advisory
+-informative
+	-provide info/knowledge about specific subject (goals, mission statements, style of interactions)
+	-provides support, research, background info relevant to specific elemets of overall policy
+	-nonforceable
+
+From the security policies flow many other documents or sub-elements necessary for a complete security solution. Policies are broad overviews, whereas standards, baselines, guidelines, and procedures include more specific, detailed information on the actual security solution. Standards are the next level below security policies.
+
+
+Security Policies and Individuals
+-sec policies should not address specific individuals but
+-assign tasks and responsibilities to a person (and to fit a role)
+-role is function of administrative control or personnel management
+-doesnt define WHO is to do WHAT, but WHAT must be done what role
+-roles defined are assigned to individuals as a job description / work tasks
+
+
+Security Standards, Baselines, and Guidelines
+
+Standards
+-define compulsory requirement for the homogenous use of HW, SW, technology and sec controls
+-provide course of action/procedures to implement thoughout an org
+-tactical documents that define steps/methods to accomplish goals
+
+Baselines
+-defines minimum lvl of security that systems must meet
+-systems not complying should be taken out of production until they meet baseline
+-foundational security state upon which additional and stringent sec measures can be built
+-often system specific and refer to industry/governemnt standard
+	-Trusted Computer System Evaluation Criteria (TCSEC) or (ITSEC)
+	-most military orgs req all systems support TCSEC C2 security level at minimum
+
+Guidelines
+-offers recommendations on how standards and baselines are implemented
+-serves as operational guides for sec professionals and users
+-flexible, can be customized for each system or condition
+-can be used in the creation of new procedures
+-state which sec mechanism should be deployed, not a specific product or config settings
+-outline methodologies, include suggested actions
+-not compulsory
+
+
+
+Security Procedures
+-final element of the formalized security policy structure
+-detailed, step-by-step how-to document
+-exact actions to implement a specific security mechanism, control or solution
+-could discuss entire system deployment operation or focus on single product/aspect
+-most cases system and software specific (firewall, AV)
+-must be updated as HW/SW evolve
+-ensure the integrity of business processes
+
+
+
+Acceptable Use Policy
+-commonly exists as part of overall security documentation infrastructure
+-assign security roles within the org and responsibilities tied to them
+-defines level of acceptable performance and expectation of behavior and activity
+-failure to comply may result to warning, penalties and job termination
