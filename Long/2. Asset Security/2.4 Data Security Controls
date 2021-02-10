@@ -1,0 +1,90 @@
+#Data Life Cycle Management (DLM)
+-policy based approach to managing the flow of data
+	-from creation and initial storage to deletion
+-as a rule, newer data must be accessed more frequent, stored faster/expensive
+	-less critical data stored cheaper and on slower media
+
+Information Lifecycle Management (ILM)
+-Records Creation > Use and Dissemination > Maintenance and Protection > Distposition or Destruction > Archives (Preservation and Access)
+
+Creation
+-data created by user or application
+-classified at this time, based on criticality/sensitivity, data owner assigned
+-many forms: documents, spreadsheets, email, txt msg, db record, images...
+
+Distribution (data in motion)
+-may be distributed internally or transmitted to external recipients
+-manual (courier) or electronic (network)
+-encryption in transit
+-DLP may be used to prevent accidental/intentional unauth distribution of data
+
+Use (data in use)
+-data read/analyzed/modified/updated/duplicated by user or application
+-must be accessed only on systems that are authorized for the classification level
+	-and by users/apps with appropriate permissions and purpose (clearance, need-to-know)
+
+Maintenance (data at rest)
+-when not 'in motion' or 'in use'
+-includes storage (media) and filing (dir, file structure)
+-may also be backed up > transferred to off-site
+-classification levels should be reviewed routinely by data owner
+	-can be upgraded or downgradead
+-C: file permissions, encryption 
+-I: hashes, cyclic redundancy checks, file locking
+-A: db and file clustering0, backups
+
+Disposition
+-when no longer value/needed > properly destroyed
+-in accordance with retention and destruction policies (and law/regulations)
+-certain sensitive data may require specific destruction (witness, logging, magnetic wipe then physical destruction)
+
+
+-Remember that data that has merely been deleted has not been properly destroyed. It is merely “data at rest” waiting to be over-written — or inconveniently discovered by an unauthorized and potentially malicious third party.
+
+
+
+#Baselines
+
+-Comparing to other organizations. Organizations can compare their control sets with other organizations, to see what differences exist in controls.
+    
+-Comparing internal controls over time. An organization can baseline its set of controls, to see what changes occur in its control set over a period of years.
+    
+-Comparing control effectiveness over time. An organization can compare its record of control effectiveness, to see where progress is being made, and where more effort is needed to make progress.
+
+
+
+
+#Scoping and tailoring
+
+-different parts of org process different sets of data
+	-don't use single set of controls and policy
+-tailor controls, apply right level of control based on the info they store
+
+
+
+#Standards and Control Frameworks to choose from
+
+-PCI-DSS
+-OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation
+-ISO 27002
+	-Code of practice for information security management
+-COBIT (Control Objectices for Information and related Techonology)
+	-A governance model
+-ITIL (Information Technology Infrastructure Library)
+	-Framework for IT service management
+-NIST 800-53
+	-Recommended Security Controls for Federal Information Systems and Organizations.
+
+
+
+#Certification and Accreditation
+
+-Certification: A system meets the requirements of the data owner
+-Accreditation: data owner accepts the certification
+
+
+#Cryptography
+
+-plays critical role in data protection
+-hiding data in plain sight
+	-person may be able to access the data, but cannot see the data
