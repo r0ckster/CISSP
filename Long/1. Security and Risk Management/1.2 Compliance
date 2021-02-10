@@ -1,0 +1,98 @@
+Standards and Frameworks
+-different information security standards consist of compulsory requirements for homogenous use of software, technology and security controls
+
+Baseline
+-minimum level of security that every system must need
+
+Guideline
+-recommendations on how to meet standards and baselines
+
+ISO/IEC 27000
+-the overview of information security management systems, and terms and definitions commonly used in the ISMS family of standards
+
+ISO/IEC 27001
+-ISMS requirements
+-Information Security Management System Standard
+
+Plan - Do - Check - Act (PDCA)
+-establish objectives, make plans, implementations
+-measure results to see if objectives are met and how to correct/improve plans
+
+
+Enterprise Architecture Development Frameworks
+
+Zachman framework
+-two-dimensional model that uses six basic communication
+-What, How, Where, Who, When, Why
+-Planned, Owner, Designer, Builder, Implementer, Worker
+
+TOGAF
+-origins in the US DOD
+-provides approach to design, implement and govern enterprises information architecture
+-can be used with Business, Data, Applications and Technology Architecture
+
+DoDAF
+-focuses in command, control, communications, computers, intelligence, surveillance and reconnaissance systems and processes
+-important that they use same protocol types and data elements
+
+MODAF
+-right data in right format to the right people - asap
+-allows fast and accurate decisions
+
+
+
+Security Enterprise Architecture Development
+-SABSA model (Sherwood Applied Business Security Architecture)
+	-Is a framework and methodology for enterprise security architecture and service management
+	-It provides a life-cycle model so that the architecture can be constantly monitored and improved upon over time
+-SP 800-53
+	-NIST Standard that controls that agencies need to put into place to
+be compliant with the Federal Information Security Management Act of 2002
+	-The control categories (families) are the management, operational, and technical controls prescribed for an information system to protect the confidentiality, integrity, and availability of the system and its information
+
+
+Security Controls Development
+-CobiT - Control Objectives for Information and Related Technology
+-It defines goals for the controls that should be used to properly manage IT and to ensure that IT maps to business needs
+-CobiT is broken down into four domains: Plan and Organize, Acquire and Implement, Deliver and Support, and Monitor and Evaluate
+
+Corporate Governance
+-COSO
+-Treadway Commission in 1985 to deal with fraudulent financial activities and reporting. Control environment, risk assessment, control activities, information, communication and monitoring
+
+Process Management
+-ITIL
+	-ITIL is the de facto standard of best practices for IT service management
+	-It was created because of the increased dependence on information technology to meet business needs
+-Six Sigma
+	-Six Sigma is a process improvement methodology
+	-It is the "new and improved" Total Quality Management (TQM) that hit the business sector in the 1980s
+	-Was was developed by Motorola with the goal of identifying and removing defects in its manufacturing processes
+-CMMI
+	-CMMI aims to develop structured steps that can be followed so an organization can evolve from one level to the next and constantly improve its processes and security posture
+
+
+Top-down approach
+-initiation, support and direction come from top management
+
+Bottom-up approach
+-staff members (usually IT) try to develop security program without getting top managements support or direction
+
+
+
+Life cycle process
+1. Plan and Organize
+2. Implement
+3. Operate and maintain
+4. Monitor and evaluate
+
+
+
+NIST 800-30
+-Risk Management Guide for Information Technology
+
+
+
+OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation)
+-is a security framework for determining risk level and planning defenses against cyber assaults
+-the framework defines a methodology to help organizations minimize exposure to likely threats, determine the likely consequences of an attack and deal with attacks that succeed.
