@@ -1,0 +1,118 @@
+Business Continuity
+-keeps company in 'business' after disaster
+-takes more into account than just technology
+-regulatory req for executive management obligations for fiscal responsibility
+
+
+Disasters
+1.Natural disasters
+	-fires, explosions, earthquakes, storms, floods, pandemics...
+2.Human disasters
+	-intentional or unintentional, accident, crime, war, terrorism, cyber attack...
+3.Environmental disasters
+	-blackout, surge, spike, app/sw flaw, component failure
+
+-personnels safety must be guaranteed even at the expense of restoration of operations
+
+
+Recovery team
+-location of residence
+-skills and experience
+-ability and willingness to respond
+-health and family (determines probability to serve)
+-identify backups
+	-other team members, external resources
+
+
+Emergency response
+-Personnel safety: includes first-aid, searchinh for pesonnel...
+-Evacuation: evacuation procedures to prevent any hazard to employees
+-Asset protection: includes buildings, vehicles and equipment
+-Damage assessment: this could involve outside structural engineers to assess gamae to buildings and equipment
+-Emergency notification: response team communication, and keeping management and organization staff informed
+
+
+Public utilities and infrastructure
+-Often interrupted during a disaster
+-Electricity: UPS (Uninterruptible Power Supply), generator
+-Water: building could be closed if no water is available for fire suppression
+-Natural gas: heating
+-Wasterwater: if disabled, building could be closed
+-Steam heat
+
+
+Logistics and supplies
+-Food and drinking water
+-Blankets and sleeping cots
+-Sanitation (toilets, showers, etc)
+-Tools
+-Spare parts
+-Waste bins
+-Information
+-Communications
+-Fire protection (extinguishers, sprinklets, somke alarms, fire alarms)
+
+
+Business resumption planning
+-Alternate work locations
+-Alternate personnel
+-Communications
+	-Emergency, support of business processes
+-Standby assets and equipment
+-Access to procedures, business records
+
+
+Restoration and recovery
+-Repairs to facilities, equipment
+-Replacement equipment
+-Restoration of utilies
+-Resumption of business operations in primary business facilities
+
+
+Improving system resilience and recovery
+-Off-site media storage
+ 	-Assurance of data recovery
+-Server clusters
+	-Improved availability
+  -Geographics clusters: members far apart
+-Data replication
+	-Application, DMBS, OS or Hardware
+	-Maintains current data on multiple servers even in remote places
+
+
+Business Continuity Plan (BCP)
+-goal to ensure business will continue to operate before, throughout and after disaster
+-focus in business as a whole
+-ensure ciritical service/functions can still be carried
+-long-term strategy
+-could include running business in other location or with different tools/processes
+
+BCP Initiation and Recovery Steps
+-BCP Cycle
+	-Identification > Prevention > Declaration > Escalation > Containment > Implementation > Recovery
+-Business Recovery Steps
+	-Business recovery: Facility and Operations recovery
+	-Process recovery: HR and Business Unit recovery
+	-IT Recovery: Data and telecommunications recovery
+
+
+Disaster Recovery Plan (DRP)
+-provides short-term plan for IT-oriented disruptions
+-focuses on efficience, mitigate impact of disaster, recovery of critical IT systems
+-DOESN'T focus on long-term business imbact in the same fashion as
+-deals with restoring normal business operations after disaster
+-DRP is a subset of BCP
+
+
+Summary
+-BCP and DRP are orgs last line of defense, when other controls have failed
+-may prevent drastic events such as injury, loss of life, failure of an organization
+-BCP/DRP process forces to view orgs critical processes and assests in a clarifying light
+-critical assets must be identified and key business processes understood
+-standards are deployed
+-risk analysis conducted during BCP/DRP plan can lead to immediate mitigating steps
+
+
+
+
+Summary
