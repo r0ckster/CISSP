@@ -1,0 +1,123 @@
+CIA
+
+Confidentiality
+	-data has not been disclosed to unauthorized individuals
+	-access control and encryption
+Integrity
+	-data not modified
+	-hashing
+Availability
+	-data is accessible
+	-fault tolerance, redundancies, backups
+
+
+Threat, Risk, and Countermeasure
+
+Threat Agent 
+	-An entity that may act on a vulnerability.
+Threat
+	-Any potential danger to information life cycle.
+Vulnerability
+	-A weakness or flaw that may provide an opportunity for a threat agent.
+Risk
+	-The likelihood of a threat agent exploits the discovered vulnerability.
+Exposure
+	-An instance of being compromised by a threat agent.
+Countermeasure/safeguard
+	-An administrative, operational, or logical mitigation against potential risk(s)
+
+
+Concepts of Security Governance
+
+Policy
+-Management directives that establish expectations (goals & objectives), and assign roles & responsibilities 
+
+Standards
+-Functional specific mandatory activities, actions, and rules
+
+Process & Procedure
+-Step-by-step implementation instructions
+
+Guideline
+-General statement, framework, or recommendations to augment process or procedure
+
+
+Roles and responsibilities
+
+Senior Manager
+	-ultimate responsibility
+Information Security Officer
+	-functional responsibility
+Data Owner
+	-determines data classification
+Data Custodian
+	-preservers datas CIA
+User/Operator
+	-performs tasks, comply with requirements and practice due care
+Auditor
+	-examines security
+
+
+Security Controls
+
+Preventive Controls 
+	-stops attacks
+	-physical, administrative and technical measures
+Detective
+	-record events
+	-practices, processes and tools that identify and possibly react
+Corrective
+	-after attack, prevents another attack
+	-involve physical, administrative and technical measures to react to detection
+Recovery
+	-after attack, restores operation
+Compensating
+	-substitutes other control that is ainadequate
+	-instead of replasing OS > implement application whitelisting
+	-instead of security guard > use swipe card system
+
+
+Defense in depth
+-Physical security
+-Perimeter
+-Intranet
+-Host
+-Application
+-Data
+
+
+Due Care
+-legal duty of a company
+-if company fails (knowingly or unknowingly) to perfom steps, can be held liable in court
+
+Due Dilligence
+-best practices company SHOULD follow
+-if it doesn't follow, it COULD face an attack, but might not be legally liable
+
+
+Least privilege
+-individual, program or system process is not granted any more access privileges than are necessary to perform the task
+
+Need to know
+-goes beyond an individual's role and authorization level to look at the situation
+-may look at who's involved with a specific mission to set authorizations on a dynamic basis
+
+Separation of duties
+-concept of having more than one person required to complete a task
+-internal control intended to prevent fraud and error
+
+Defence in depth
+-coordinated use of multiple security countermeasures to protect the integrity of the information assets
+-based on the military principle
+-more difficult for an enemy to defeat a complex and multi-layered defense system than to penetrate a single barrier
+
+
+Rings
+-Ring number determines the access level
+-program may access only data that resides on the same ring, or a less privileged ring
+-program may call services residing on the same, or a more privileged ring
+		Ring 0 contains kernel functions of the OS
+  	Ring 1 contains the OS
+    Ring 2 contains the OS utilities
+    Ring 3 contains the applications
+
