@@ -1,0 +1,56 @@
+Asset retention
+-based on law and policies, data must be retained even after its useful life
+-also in backup and used in business continuity and disaster recovery scenarios
+	-media, hw, personnel
+
+Data Retention Policy
+-must be stored securely and appropriately, regarding sensitivity and confidentiality
+-must be rained for as long as neccessary
+
+Storage
+-use secure data centers for storage
+-only authorized personnel can access data
+
+Retention
+-follow required laws/regulations
+-maximum number of years of retention is regarded as retention time
+
+Destruction and disposal
+-Follow procedures for destruction and disposal
+-NIST SP 800-88 revision 1 stipulates guidelines for Media Sanitazion
+-Key concept: Data remanence
+	-Refers to data that remains on storage media after imperfect attempts to erase it
+  -Happens on magnetic media,flash drives and SSDs
+
+
+Overwriting data
+-Deleting a file does not erase its contents
+-You must rewrite on top of the sectors it used
+-Also called shredding or wiping
+-A single pass is enough for a magnetic hard drive 
+
+
+Degaussing
+-Exposing a magnetic disk or tape to high magnetic field
+-Can be a secure erase if performed properly
+
+
+Destruction
+-Physically destroy the storage media
+-More secure than overwriting
+-Paper shredders destroy printed data
+
+
+
+Employee Retention Policy
+-Employees are one of the most critical assets
+-Employees are also on the the most expensive assets
+-Losing a long term employee can be a big loss
+-Create an environment suitable for growth from within
+-Create an incentive system for long term employees
+	-Extra vacation
+	-Pay raise
+	-Other fringe benefits such as parking, cell phone
+-Human Resources should investigate all departure
+	-What is the root cause
+	-Can it be prevented
