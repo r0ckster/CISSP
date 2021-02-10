@@ -1,5 +1,5 @@
 # CISSP
-Some notes, resources, progression.
+Some notes from different sources, helpful links/resources, progression..
 
 # Domains / Modules
 
