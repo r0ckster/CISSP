@@ -1,0 +1,34 @@
+Preamble
+-Safety of the commonwealth, duty to our principals (employers, contractors, people we work for) and to each other requires that we adhere, and be seen to adhere, to the highest ethical standards of behavior
+-Therefore, strict adherence to this Code is a condition of certification
+
+
+Canons of (ISC)² Code of Ethics
+
+1. Protect Society, the Commonwealth, and the Infrastructure
+-As a security professional you must promote safe security practices to the public and make the security of suystems and infrastructure for the good of the public
+-"Protecting society” means protect and uphold the principles in society before you do so for your employer and yourself
+-Without a secure society being protected by ethical individuals, there is chaos, crime and lawlessness
+
+2. Act honorably, honestly, justly, responsibly and legally
+-Always tell the truth, set the truth free, for the TRUTH will always defend itself.  The truth has all the weapons, tactics, and practices to defend itself
+-If you lie, you’ll be working overtime to cover up the lies, and defend your lie, tarnishing your reputation in the process
+-If a customer has a sound information security network, don’t try to sell them something they don’t need
+-Don’t sell them another firewall when they already have 5 of them
+-Don’t try to scare small businesses into getting expensive and advanced biometric systems when all they really need is a surveillance camera and a standard lock
+
+3. Provide Diligent and Competent Service to Principals
+-If you don’t know how to configure a load balancer for a client, don’t say that you can
+-If you are an expert at Palo Alto firewalls, don’t tell clients that you are an expert at Cisco firewalls
+-If you are signing a contract with a security organization, don’t sign a contract with their competition which causes a conflict of interest
+
+4. Advance and protect the profession
+-So you studied really hard and finally passed the CISSP exam
+-Your friend asks for your study notes, but you say “No, I studied all by myself and through sheer determination I passed it by myself.  I suggest you do that same and write your own notes.”
+-This is a terrible response, and selfish
+-Think of all the people that helped you along the way in your road to becoming a CISSP, all the time and effort they put in to answer your questions and your inquiries about cryptography, disaster recovery, test taking strategies
+
+
+Summary
+-The canons are applied in order, and when ever there is an ethical dilemma, a CISSP must follow the cannon in the top-down order
+
