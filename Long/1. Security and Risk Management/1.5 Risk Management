@@ -1,0 +1,84 @@
+Risk is the relationship between the likelihood of a loss and the potential impact to the business
+
+
+Risk management
+-process of determining the maximum acceptable level of overall risk to and from a proposed activity
+-then using risk assessment techniques to determine the initial level of risk
+-if excessive > develo a strategy to meliorate appropriate individuals risk > until the overall level of risk is reduced to an acceptable level
+
+THREAT: natural or man-made event that could have negative imapct on the org
+
+VULNERABILITY: flaw/error/oversight, that can be exploited to violate system sec policy
+
+CONTROLS: mechanisms used to restrain/reduce vulnerabilities (corrective/detective/preventive or deterrent)
+
+
+
+NIST 800-30 Risk Management Guide
+-a Standard Risk Management Guide for Information Technology. It contains 9 steps on risk management listed below:
+
+   1. step in risk analysis process: System Characterization
+   2. step in risk analysis process: Threat Identification
+   3. step in risk analysis process: Vulnerability Identification
+   4. step in risk analysis process: Control analysis
+   5. step in risk analysis process: Likelihood Determination
+   6. step in risk analysis process: Impact Analysis
+   7. step in risk analysis process: Risk Determination
+   8. step in risk analysis process: Control Recommendations
+   9. step in risk analysis process: Results Documentation
+
+
+
+NIST Special Publication 800-37
+-provides four steps for Applying the Risk Management Framework to Federal Information Systems
+
+Step 1 Initiation Phase - IS and risk mitigation plan is researched
+Step 2 Security Certification Phase - security of the system is assessed and documented
+Step 3 Security Accreditation Phase - Decision to accept the risk is made and documented by the approving authority
+Step 4 Continuous Monitoring Phase - ongoing security of the system is verified
+
+
+
+Qualitative Risk Assesment
+-for a given scope of assets, identify:
+-Vulnerabilities
+-Threats
+-Threat probability (Low/Medium/High)
+-Impact (Low/Medium/High)
+-Countermeasures
+
+
+Quantitative Risk Assesment
+-Extension of a qualitative risk assessment
+-Metrics for each risk are:
+	- Asset value: replacement cost and/or income derived through the use of an asset
+	- Exposure Factor (EF): Portition of asset`s value lost through a threat
+	- Single Loss Expectancy (SLE) = Asset ($) x EF (%)
+	- Annualized Rate of Occurence (ARO): Propability of loss in a year
+	- Annualized Loss Expectancy (ALE) = SLE ($) x ARO (%)
+
+
+Handling Risk
+-risk can be dealt with in four general ways, either individually or in combination
+	-risk reduction — Implement a countermeasure to alter or reduce the risk.
+	-risk transference — Purchase insurance to transfer a portion or all of the potential cost of a loss to a third party.
+	-risk acceptance - deal with risk by accepting the potential cost and loss if the risk occurs.
+	-risk rejection - Pretend that the risk doesn’t exist and ignore it. Although this is not a prudent course of action, it is one that some organizations choose to take.
+
+
+Best way to handle risk depends on
+-cost of the countermeasure
+-value of the asset
+-amount by which risk-reduction techiniques reduce the total risk
+-greates risk reduction + lowest annual cost = usually chosen
+
+Threat X Vulnerability X Asset value = Total risk
+
+Total risk - Countermeasures = Residual risk
+
+
+-can't be 100% secure, risks always remain
+-residual risk is amount that is left after safeguards/controls have been put in place
+
+
+
