@@ -1,0 +1,76 @@
+Controlling access to media
+
+-Librarian to controls access
+-Log who takes what materials out and when
+-Materials should be properly labelled
+-Media must be properly sanitized when necessary (Degaussing / Physically destroying)
+
+
+Protecting audit data and logs
+
+-Intruders cover tracks by deleting logs
+-Must make use of a central log server
+-Log server must be hardened with restricted access
+-Log server must be well protected to be reliable
+	-Write once media
+	-Signature tools such as syslogNG for reliability
+-May be used in a trial
+-Great fraud and investigation tools
+-Requires some planning
+-Protect your audit trail
+
+
+Issues with log audit
+
+-Quantity of log
+-Event filtering in real time
+-Clipping levels
+-Finding good auditing tools t oreduce size of logs
+-Developing procedures
+-Train personnel on how to read logs
+-Protect the logs
+-User of proper integrity mechanisms
+-Storage and preservation of logs
+
+
+
+SIEM (Security Information and Event Management)
+
+-seek to provide holistic view of an orgs IT security
+-relevan data from single-point-of-view 
+
+Some of the SIEM functions are listed below:
+
+-Store RAW information from systems logs
+-Aggregate logs in a single directory
+-Will normalize the data in a common format
+-May include alerting and reporting tools
+-Often use for compliance requirements
+-Great for incident response and investigation
+
+
+
+
+Link Encryption
+
+-Usually performed by ISP or site to site
+-Encrypts all the data (headers and payload)
+-Must decrypt at each node to route the packets
+-Introduce a GAP at each of the decryption point
+-A compromised node could lead to capture of data
+-Provides confidentiality
+-Hides addressing information
+-Can be combined with end-to-end encryption
+-IPSec in tunnel mode is a similar concept
+-happens at lower layers, encrypts headers and trailers
+
+
+End to end encryption
+
+-Usually between users within an organization
+-Only the data is encrypte
+-Routing information is in clear text   
+-No need to decrypt in transit or at each node
+-Can be combined with link encryption
+-IPSec is transport mode is a similar concept
+-happens at higher layers and does not encrypt headers and trailers
