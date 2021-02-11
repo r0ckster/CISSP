@@ -192,9 +192,44 @@ Protective controls for ESD include:
   * Aspirating: These draw air into a sampling chamber to detect minute amounts of smoke.
 
 ### Suppression systems
-
-
-
+* Water sprinkler systems (against Class A fires)
+ * The four main types of water sprinkler systems are wet pipe, dry pipe, deluge, and preaction
+* CO2 (against Class B anc C fires)
+* Soca acid (against Class A and B fires)
+* Gas discharge, FM-200 (against Class B and C fires)
 
 
 ## Administrative controls
+These include the policies and procedures necessary to ensure that physical access, technical controls, and environmental and life safety controls are properly implemented and achieve an overall physical security strategy.
+
+### Restricted areas
+* areas where sensitive info is handled
+* should be clearly marked and formally designed as restricted
+* employees should know the difference between authorized and unauthorized personnel
+
+### Visitors
+* Visitor policies and escort requirements should be clearly defined in the organizational security policy
+* present proper identification to a security guard or receptionist, sign a visitor log, complete a nondisclosure agreement (when appropriate), and wear a conspicuous badge that both identifies them as a visitor and clearly indicates whether an escort is required
+* If an escort is required, the assigned escort should be identified by name and held responsible for the visitor at all times while on the premises
+
+### Audit trails and access logs
+* detective controls, provide record of events
+* can be analyzed for unauthorized access attempts and patterns of abuse
+* potentially used as evidence
+
+### Asset classification and control
+* important detective control
+* The proliferation of desktop PCs, notebooks, personal digital assistants (PDAs), and wireless devices has made theft a very common and difficult physical security threat to counter
+* An accurate inventory helps identify missing equipment and may potentially be used as evidence
+
+### Emergency procedures
+* must be clearly documented, readily accessible, periodically updated and routinely practiced
+* Additional copies may also be kept at secure off-site facilities
+* should include emergency system shutdown procedures, evacuation plans and routes, and business continuity plan/disaster recovery plan (BCP/DRP)
+
+### General housekeeping
+* important aspect of physical security controls
+* Implementing and enforcing a no-smoking policy helps to reduce not only potential fire hazards but also contamination of sensitive systems
+* Cleaning dust and ventilation systems helps maintain a cleaner computing environment and also reduces static electricity and fire hazards
+* Keeping work areas clean and trash emptied reduces potential fire hazards (combustibles) and also helps identify and locate sensitive information that may have been improperly or carelessly handled
+
